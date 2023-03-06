@@ -2,7 +2,7 @@ const { Telegraf } = require('telegraf');
 const TOKEN = "6250735543:AAFHT7rlWZN-yvFiIhHM-lOHFdK6ngLcZxo";
 const bot = new Telegraf(TOKEN);
 
-const web_link = "https://gabrielcfigueiredo.github.io/botSoker/";
+const web_link = "https://gabrielcfigueiredo.github.io/bot-api/";
 
 bot.start((ctx) =>
   ctx.reply("Welcome :)))))", {
