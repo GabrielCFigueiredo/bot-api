@@ -69,6 +69,11 @@ function App() {
                     {sport?.stats[1]?.corners}{" "}
                   </p>
                 </div>
+                <div>
+                  <p>
+                    FAVORITO: {sport?.favorite}
+                  </p>
+                </div>
               </div>
             );
           }
